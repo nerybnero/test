@@ -1,0 +1,39 @@
+.container{
+    max-width: 1920px;
+    margin: 0 auto;
+    padding: 0 250px;
+}
+
+.title {
+    padding-left: 120px;
+    position: relative;
+    margin-bottom: 80px;
+    &::before{
+        position: absolute;
+        content: "";
+        background-repeat: no-repeat;
+        width: 90px;
+        height: 120px;
+        left: 0;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+}
+
+main{
+    background: #171422;
+    padding-bottom: 100px;
+}
+
+body{
+    color: #fff;
+    font-size: 22px;
+    line-height: 140%;
+}
+a{
+    color: #fff;
+}
+
+.photo__one{
+    margin-bottom: 40px;
+}

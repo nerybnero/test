@@ -1,0 +1,144 @@
+.content {
+    padding-top: 100px;
+    margin-bottom: 40px;
+    &__body {
+        max-width: 1180px;
+    }
+
+    &__title {
+        color: #fff;
+        padding: 40px 100px 40px 40px;
+        background: linear-gradient(135deg, #ffa462 0%, #b45350 21.79%, #8a2645 48.93%, #291725 84.55%);
+        border-radius: 30px;
+        margin-bottom: 60px;
+    }
+    &__wrapper{
+        display: flex;
+        gap: 20px;
+    }
+}
+
+.one {
+margin-bottom: 80px;
+    &__title::before {
+        background-image: url('../img/content/1.svg');
+    }
+
+    &__cards {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 30px;
+        padding-left: 120px;
+        margin-bottom: 30px;
+    }
+
+    &__card {
+        border-radius: 12px;
+        width: 268px;
+        height: 62px;
+        background: #fff;
+        box-shadow: 4px 4px 10px 0 rgba(0, 0, 0, 0.25);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    &__card-img {
+    }
+
+    & > p:first-of-type{
+       margin-bottom: 30px;
+    }
+
+    &__card-desc {
+        margin-left: auto;
+    }
+
+}
+.text {
+    
+}
+.two {
+
+    &__title::before {
+        background-image: url('../img/content/2.svg');
+    }
+}
+.three {
+
+    &__title::before {
+        background-image: url('../img/content/3.svg');
+    }
+
+    &__image {
+        display: flex;
+        gap: 100px;
+        margin-bottom: 45px;
+        justify-content: center;
+    }
+
+    & .text{
+        margin-bottom: 180px;
+    }
+
+    &__image-img {
+    }
+
+    &__cards {
+        display: flex;
+        gap: 20px;
+        margin-bottom: 80px;
+    }
+
+    &__card {
+        position: relative;
+    }
+
+    &__card::before{
+        position: absolute;
+        content: "";
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    &__card:nth-child(2)::before{
+        background-image: url('../img/content/icon-card-2.png');
+        width: 146px;
+        height: 142px;
+        top: -109px;
+        left: 52px;
+    }
+    &__card:nth-child(3)::before{
+        background-image: url('../img/content/icon-card-3.png');
+        width: 422px;
+        height: 136px;
+        top: -181px;
+        left: 0;
+    }
+    &__card:nth-child(4)::before{
+        background-image: url('../img/content/icon-card-4.png');
+        width: 146px;
+        height: 142px;
+        top: -109px;
+        left: 52px;
+    }
+
+    &__card:nth-child(4){
+        margin-left: auto;
+    }
+
+    &__card-img {
+    }
+}
+.four {
+
+    &__title::before {
+        background-image: url('../img/content/4.svg');
+    }
+}
+.five {
+
+    &__title::before {
+        background-image: url('../img/content/5.svg');
+    }
+}
